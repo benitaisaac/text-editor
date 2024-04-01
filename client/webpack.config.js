@@ -34,11 +34,13 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: "J.A.D.E",
+        name: "Just Another Text Editor",
         short_name: "J.A.D.E",
-        description: "A simple text editor!",
+        description: "Take notes with Javascript Syntax highlighting!",
         background_color: "#225ca3",
         theme_color: "#225ca3",
+        orientation: "portrait",
+        display: "standalone",
         start_url: "./",
         publicPath: "./",
         icons: [
